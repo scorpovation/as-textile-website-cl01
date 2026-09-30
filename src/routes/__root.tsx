@@ -12,6 +12,24 @@ import { useEffect, type ReactNode } from "react";
 import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
 
+const businessStructuredData = {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  name: "AS Textile",
+  url: "https://www.astextiles.com/",
+  logo: "https://www.astextiles.com/as-textile-logo.png",
+  telephone: "+92 314 3065 816",
+  description:
+    "Karachi-based supplier of bulk cotton towels and cotton fabric for hospitality, retail, and international buyers.",
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "CI-33 Sector 6-B, North Karachi Industrial Area",
+    addressLocality: "Karachi",
+    addressRegion: "Sindh",
+    addressCountry: "PK",
+  },
+};
+
 function NotFoundComponent() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-background px-4">
@@ -81,15 +99,15 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:site_name", content: "AS Textile" },
       { property: "og:type", content: "website" },
       { property: "og:locale", content: "en_US" },
-      { property: "og:url", content: "https://endearing-manatee-621e01.netlify.app/" },
-      { property: "og:image", content: "https://endearing-manatee-621e01.netlify.app/og-image.jpg" },
-      { property: "og:image:secure_url", content: "https://endearing-manatee-621e01.netlify.app/og-image.jpg" },
+      { property: "og:url", content: "https://www.astextiles.com/" },
+      { property: "og:image", content: "https://www.astextiles.com/og-image.jpg" },
+      { property: "og:image:secure_url", content: "https://www.astextiles.com/og-image.jpg" },
       { property: "og:image:width", content: "1200" },
       { property: "og:image:height", content: "630" },
       { property: "og:image:type", content: "image/jpeg" },
       { property: "og:image:alt", content: "AS Textile - Quality Crafted for Global Business" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:image", content: "https://endearing-manatee-621e01.netlify.app/og-image.jpg" },
+      { name: "twitter:image", content: "https://www.astextiles.com/og-image.jpg" },
     ],
     links: [
       {
@@ -113,6 +131,10 @@ function RootShell({ children }: { children: ReactNode }) {
     <html lang="en">
       <head>
         <HeadContent />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(businessStructuredData) }}
+        />
       </head>
       <body>
         {children}

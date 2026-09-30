@@ -1,7 +1,7 @@
 import { n as require_jsx_runtime } from "../_libs/react+tanstack__react-query.mjs";
 import { d as Check, i as MessageCircle } from "../_libs/lucide-react.mjs";
-import { a as siteData, i as WhatsAppButton, n as Footer, r as Header, t as Button } from "./SiteChrome-CmBWCWJW.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/about-Cog_6Cyj.js
+import { a as siteData, i as WhatsAppButton, n as Footer, r as Header, t as Button } from "./SiteChrome-5Y0BAHtG.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/about-DUZeXiz1.js
 var import_jsx_runtime = require_jsx_runtime();
 function AboutPage() {
 	const page = siteData.about.page;

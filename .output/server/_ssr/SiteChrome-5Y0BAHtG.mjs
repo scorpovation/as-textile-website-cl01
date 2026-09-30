@@ -6,7 +6,7 @@ import { a as Menu, i as MessageCircle, o as MapPin, r as Phone, s as Mail, t as
 import { t as Slot } from "../_libs/radix-ui__react-slot.mjs";
 import { n as clsx, t as cva } from "../_libs/class-variance-authority+clsx.mjs";
 import { t as twMerge } from "../_libs/tailwind-merge.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/SiteChrome-CmBWCWJW.js
+//#region node_modules/.nitro/vite/services/ssr/assets/SiteChrome-5Y0BAHtG.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 function cn(...inputs) {
@@ -61,7 +61,7 @@ var siteData = {
 		location: "Karachi, Pakistan",
 		address: "Karachi, Pakistan",
 		story: "AS Textile is based in Karachi, Pakistan, specializing in export-class textile products and bulk-quantity orders. We are currently open to new orders and welcome new contracts with quality-focused clients.",
-		logo: "/assets/as-textile-logo-BgmI4VD4.png"
+		logo: "/assets/as-textile-logo-BHR61hya.png"
 	},
 	contact: {
 		phone: "+92 314 3065 816",

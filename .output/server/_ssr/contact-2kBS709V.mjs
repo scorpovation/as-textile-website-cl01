@@ -1,7 +1,7 @@
 import { n as require_jsx_runtime } from "../_libs/react+tanstack__react-query.mjs";
 import { c as Clock, i as MessageCircle, l as CircleQuestionMark, n as ShieldCheck, o as MapPin, r as Phone, s as Mail } from "../_libs/lucide-react.mjs";
-import { a as siteData, i as WhatsAppButton, n as Footer, r as Header, t as Button } from "./SiteChrome-CmBWCWJW.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/contact-BQnxkMkA.js
+import { a as siteData, i as WhatsAppButton, n as Footer, r as Header, t as Button } from "./SiteChrome-5Y0BAHtG.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/contact-2kBS709V.js
 var import_jsx_runtime = require_jsx_runtime();
 function ContactPage() {
 	const contact = siteData.contact;
