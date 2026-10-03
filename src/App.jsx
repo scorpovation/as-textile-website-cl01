@@ -43,6 +43,17 @@ export default function App() {
       ?.setAttribute("content", page.description);
   }, [page]);
 
+  useEffect(() => {
+    const targetId = window.location.hash.slice(1);
+    if (!targetId) return;
+
+    const frame = window.requestAnimationFrame(() => {
+      document.getElementById(targetId)?.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+
+    return () => window.cancelAnimationFrame(frame);
+  }, [path]);
+
   if (!page) {
     return (
       <main className="flex min-h-screen flex-col items-center justify-center px-5 text-center">

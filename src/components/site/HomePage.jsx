@@ -103,7 +103,7 @@ function Products() {
 
 function Process() {
   return (
-    <section id="process" className="bg-primary py-20 text-primary-foreground sm:py-28">
+    <section id="process" className="scroll-mt-20 bg-primary py-20 text-primary-foreground sm:py-28">
       <div className="mx-auto max-w-7xl px-5 lg:px-8">
         <div className="mx-auto max-w-2xl text-center"><p className="eyebrow text-accent-bright">{siteData.process.eyebrow}</p><h2 className="mt-4 font-display text-4xl font-semibold sm:text-5xl">{siteData.process.title}</h2><p className="mt-5 leading-7 text-hero-muted">{siteData.process.description}</p></div>
         <div className="mt-12 overflow-hidden rounded-lg border border-hero-border shadow-deep">
