@@ -146,7 +146,7 @@ export const siteData = {
         "Highly absorbent cotton construction",
         "Durable and reusable",
         "Ideal for restaurants and kitchens"
-      ],image: barmopTowel,
+      ], image: barmopTowel,
     },
   ],
   productsPage: {

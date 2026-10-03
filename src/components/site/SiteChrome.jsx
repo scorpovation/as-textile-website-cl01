@@ -1,18 +1,17 @@
 import { useState } from "react";
-import { Link } from "@tanstack/react-router";
 import { Mail, MapPin, Menu, MessageCircle, Phone, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { siteData } from "@/data/siteData";
 
 export function Brand() {
   return (
-    <Link to="/" className="flex shrink-0 items-center transition-opacity hover:opacity-95" aria-label={`${siteData.company.name} home`}>
+    <a href="/" className="flex shrink-0 items-center transition-opacity hover:opacity-95" aria-label={`${siteData.company.name} home`}>
       <img
         src={siteData.company.logo}
         alt={siteData.company.name}
         className="h-12 w-auto object-contain rounded-lg shadow-md"
       />
-    </Link>
+    </a>
   );
 }
 
