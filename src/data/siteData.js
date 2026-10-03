@@ -25,8 +25,8 @@ export const siteData = {
     phoneHref: "tel:+923143065816",
     whatsapp: "+92 314 3065 816",
     whatsappHref: "https://wa.me/923143065816",
-    email: "info@dummy.com",
-    emailHref: "mailto:info@satextile.com",
+    email: "hariisazeem@gmail.com",
+    emailHref: "mailto:hariisazeem@gmail.com",
     address: "CI-33 Sector 6-B North Karachi Industrial Area, Karachi",
     mapEmbed:
       // "https://maps.google.com/maps?q=CL-33+Sector+6-B+North+Karachi+Industrial+Area%2C+Karachi&t=&z=16&ie=UTF8&iwloc=&output=embed",

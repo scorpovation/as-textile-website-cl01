@@ -6,7 +6,7 @@ import { a as Menu, i as MessageCircle, o as MapPin, r as Phone, s as Mail, t as
 import { t as Slot } from "../_libs/radix-ui__react-slot.mjs";
 import { n as clsx, t as cva } from "../_libs/class-variance-authority+clsx.mjs";
 import { t as twMerge } from "../_libs/tailwind-merge.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/SiteChrome-5Y0BAHtG.js
+//#region node_modules/.nitro/vite/services/ssr/assets/SiteChrome-BvIDQHcp.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 function cn(...inputs) {
@@ -68,8 +68,8 @@ var siteData = {
 		phoneHref: "tel:+923143065816",
 		whatsapp: "+92 314 3065 816",
 		whatsappHref: "https://wa.me/923143065816",
-		email: "info@dummy.com",
-		emailHref: "mailto:info@satextile.com",
+		email: "hariisazeem@gmail.com",
+		emailHref: "mailto:hariisazeem@gmail.com",
 		address: "CI-33 Sector 6-B North Karachi Industrial Area, Karachi",
 		mapEmbed: "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3616.0987787287327!2d67.08570467537534!3d24.99675927784056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjTCsDU5JzQ4LjMiTiA2N8KwMDUnMTcuOCJF!5e0!3m2!1sen!2s!4v1789760742399!5m2!1sen!2s"
 	},

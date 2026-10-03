@@ -3,7 +3,7 @@ import { n as require_react } from "../_libs/@radix-ui/react-compose-refs+[...].
 import { c as HeadContent, d as Outlet, f as lazyRouteComponent, g as useRouter, h as Link, m as createRootRouteWithContext, p as createFileRoute, s as Scripts, u as createRouter } from "../_libs/@tanstack/react-router+[...].mjs";
 import { n as require_jsx_runtime, t as QueryClientProvider } from "../_libs/react+tanstack__react-query.mjs";
 import { t as QueryClient } from "../_libs/tanstack__query-core.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/router-CyqLA1jJ.js
+//#region node_modules/.nitro/vite/services/ssr/assets/router-DIcPtHEw.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var styles_default = "/assets/styles-BCOVBIhh.css";
@@ -217,7 +217,7 @@ function RootComponent() {
 		children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Outlet, {})
 	});
 }
-var $$splitComponentImporter$3 = () => import("./routes-C3Ef3U1J.mjs");
+var $$splitComponentImporter$3 = () => import("./routes-WReIWoqI.mjs");
 var Route$3 = createFileRoute("/")({
 	head: () => ({
 		meta: [
@@ -290,7 +290,7 @@ var Route$3 = createFileRoute("/")({
 	}),
 	component: lazyRouteComponent($$splitComponentImporter$3, "component")
 });
-var $$splitComponentImporter$2 = () => import("./about-DUZeXiz1.mjs");
+var $$splitComponentImporter$2 = () => import("./about-j86iX-lH.mjs");
 var Route$2 = createFileRoute("/about")({
 	head: () => ({
 		meta: [
@@ -359,7 +359,7 @@ var Route$2 = createFileRoute("/about")({
 	}),
 	component: lazyRouteComponent($$splitComponentImporter$2, "component")
 });
-var $$splitComponentImporter$1 = () => import("./contact-2kBS709V.mjs");
+var $$splitComponentImporter$1 = () => import("./contact-Drmg4jup.mjs");
 var Route$1 = createFileRoute("/contact")({
 	head: () => ({
 		meta: [
@@ -428,7 +428,7 @@ var Route$1 = createFileRoute("/contact")({
 	}),
 	component: lazyRouteComponent($$splitComponentImporter$1, "component")
 });
-var $$splitComponentImporter = () => import("./products-D01i7ExH.mjs");
+var $$splitComponentImporter = () => import("./products-BTH8y1Os.mjs");
 var Route = createFileRoute("/products")({
 	head: () => ({
 		meta: [
